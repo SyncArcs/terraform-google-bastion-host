@@ -67,3 +67,4 @@ module "iap_bastion" {
   subnet      = module.subnet.subnet_self_link
   members     = []
 }
+

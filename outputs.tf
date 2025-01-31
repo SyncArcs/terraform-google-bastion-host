@@ -27,3 +27,4 @@ output "self_link" {
 output "instance_template" {
   value = module.instance_template.self_link_unique
 }
+

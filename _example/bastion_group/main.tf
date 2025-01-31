@@ -69,3 +69,4 @@ module "iap_bastion_group" {
   members     = []
   target_size = 1
 }
+

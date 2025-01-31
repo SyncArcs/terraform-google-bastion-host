@@ -115,3 +115,4 @@ resource "google_project_iam_member" "bastion_oslogin_bindings" {
   role    = "projects/${data.google_client_config.current.project}/roles/${google_project_iam_custom_role.compute_os_login_viewer[0].role_id}"
   member  = "serviceAccount:${local.service_account_email}"
 }
+
